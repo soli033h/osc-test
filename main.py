@@ -4,10 +4,10 @@ import pandas as pd
 import time
 
 # 1. 페이지 설정 및 상단 바 제거
-st.set_page_config(page_title="DIAF_TEST - Simple OSC TEST Please enter your Public IP address", layout="centered")
+st.set_page_config(page_title="DIAF_TEST", layout="centered")
 
 st.set_page_config(
-    page_title="DIAF_TEST", 
+    page_title="DIAF_TEST - Simple OSC TEST Please enter your Public IP address", 
     layout="centered",
     page_icon="seoul_arts_logo_favicon.png"  
 )
