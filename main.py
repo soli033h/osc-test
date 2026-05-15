@@ -7,7 +7,7 @@ import time
 st.set_page_config(page_title="DIAF_TEST", layout="centered")
 
 st.set_page_config(
-    page_title="DIAF_TEST - Simple OSC TEST Please enter your Public IP address", 
+    page_title="DIAF_TEST - Simple OSC TEST ", 
     layout="centered",
     page_icon="seoul_arts_logo_favicon.png"  
 )
