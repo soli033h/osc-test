@@ -11,8 +11,17 @@ st.markdown("""
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
+    
+    /* 추가: 우측 상단 툴바(왕관 포함) 숨기기 */
+    .stAppDeployButton {
+        display: none !important;
+    }
+    [data-testid="stToolbar"] {
+        visibility: hidden;
+        display: none;
+    }
+    
     .centered-image { display: flex; justify-content: center; margin-bottom: 20px; }
-    /* 버튼 간격 조절 */
     .stButton > button { width: 100%; border-radius: 5px; height: 3em; font-weight: bold; }
     </style>
     """, unsafe_allow_html=True)
