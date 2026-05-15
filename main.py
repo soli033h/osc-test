@@ -9,7 +9,7 @@ st.set_page_config(page_title="DIAF_TEST", layout="centered")
 st.set_page_config(
     page_title="DIAF_TEST", 
     layout="centered",
-    page_icon="seoul_arts_logo.png"  # 여기에 원하는 이미지 파일 경로를 입력하세요.
+    page_icon="seoul_arts_logo_favicon.png"  
 )
 
 st.markdown("""
