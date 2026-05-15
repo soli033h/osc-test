@@ -28,7 +28,7 @@ def check_password():
         st.title("Access Restricted")
         pwd_input = st.text_input("비밀번호를 입력하세요", type="password")
         if st.button("입장하기"):
-            if pwd_input == st.secrets.get("password", "1234"): # secrets 설정 확인
+            if pwd_input == st.secrets.get("password"): # secrets 설정 확인
                 st.session_state.authenticated = True
                 st.rerun()
             else:
