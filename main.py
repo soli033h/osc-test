@@ -6,6 +6,12 @@ import time
 # 1. 페이지 설정 및 상단 바 제거
 st.set_page_config(page_title="DIAF_TEST", layout="centered")
 
+st.set_page_config(
+    page_title="DIAF_TEST", 
+    layout="centered",
+    page_icon="seoul_arts_logo.png"  # 여기에 원하는 이미지 파일 경로를 입력하세요.
+)
+
 st.markdown("""
     <style>
     #MainMenu {visibility: hidden;}
